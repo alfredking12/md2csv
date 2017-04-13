@@ -2,6 +2,8 @@
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Runtime data
 pids
@@ -14,6 +16,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# testing
+/coverage
+
 # nyc test coverage
 .nyc_output
 
@@ -22,6 +27,9 @@ coverage
 
 # node-waf configuration
 .lock-wscript
+
+# production
+/build
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
